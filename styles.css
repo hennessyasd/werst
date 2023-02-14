@@ -162,7 +162,11 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+}
+.footer .footer-conteiner .b2 .footer-search{
+    margin: 0;
+    border: 0;
+    padding: 0;
 }
 
 /**********************************/
