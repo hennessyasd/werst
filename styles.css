@@ -79,8 +79,8 @@ form {
     width: 300px;
     margin: 0 auto;
     height: 42px;
-  }
-  input {
+}
+form input {
     height: 42px;
     width: 0;
     padding: 0 42px 0 15px;
@@ -93,12 +93,12 @@ form {
     top: 0;
     right: 0;
     z-index: 2;
-  }
-  input:focus {
+}
+form input:focus {
     width: 300px;
     border-bottom: 2px solid #524F4C;
-  }
-  button {
+}
+form button {
     background: #524F4C;
     border: none;
     height: 42px;
@@ -107,17 +107,17 @@ form {
     top: 0;
     right: 0;
     cursor: pointer;
-  }
-  button:before {
+}
+form button:before {
     font-size: 16px;
     color: #F9F0DA;
-  }
-  #search img{
+}
+form  #search img{
     color: white;
-  }
-  #search {
+}
+form #search {
     border: none;
-  }
+}
 /**/
 
 /**********************************/
@@ -183,6 +183,10 @@ footer .footer-container{
 footer .footer-container .div-submit{
     width: 100%;
     color: white;
+    margin: 3.3vh;
+}
+footer .footer-container .div-submit .input{
+    margin: 2.3vh 2vw;
 }
 footer .div-info{
     width: 100%;
@@ -196,6 +200,9 @@ footer .div-info ul>li{
     list-style-type: none;
     margin: 2vh;
 }
+
+
+
 /************links 'a' ************/
 
 a {
@@ -208,4 +215,11 @@ a:hover {
     text-decoration: underline;
 }
 
+.link-italic{
+    color: black;
+}
+.link-italic:hover{
+    color: black;
+    text-decoration: none 
+}
 /**********************************/
